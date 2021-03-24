@@ -44,7 +44,7 @@ Type "help" for help.
 username=>
 ```
 
-Now you can run `SQL` queries. This is a snipet supported queries:
+Now you can run `SQL` queries. This is a snipet of supported queries:
 
 ```sql
 create schema SMOKE_QUERIES;
