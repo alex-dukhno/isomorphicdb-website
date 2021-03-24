@@ -49,7 +49,9 @@ Now you can run `SQL` queries. This is a snipet supported queries:
 ```sql
 create schema SMOKE_QUERIES;
 
-create table SMOKE_QUERIES.VALIDATION_TABLE(column_test smallint);
+create table SMOKE_QUERIES.VALIDATION_TABLE(
+    column_test smallint
+);
 
 insert into SMOKE_QUERIES.VALIDATION_TABLE
 values (1);
@@ -71,7 +73,11 @@ from SMOKE_QUERIES.VALIDATION_TABLE;
 
 drop table SMOKE_QUERIES.VALIDATION_TABLE;
 
-create table SMOKE_QUERIES.MANY_COLUMNS_TABLE (column_1 smallint, column_2 smallint, column_3 smallint);
+create table SMOKE_QUERIES.MANY_COLUMNS_TABLE (
+    column_1 smallint,
+    column_2 smallint,
+    column_3 smallint
+);
 
 insert into SMOKE_QUERIES.MANY_COLUMNS_TABLE values (1, 2, 3);
 
