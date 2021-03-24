@@ -279,7 +279,7 @@ defaults:
       path: ""
       type: docs
     values:
-      layout: single
+      layout: splash
       read_time: true
       comments: false
       share: true
