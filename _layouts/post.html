@@ -2,10 +2,9 @@
 layout: default
 ---
 
-<div class="container">
+<div class="container-fluid">
     <div class="row">
-
-        <div class="col-md-4">
+        <div class="col-md-offset-2 col-md-2">
             <div class="well">
                 <h4>RECENT POSTS</h4>
                 <ul class="list-unstyled post-list-container">
@@ -16,8 +15,7 @@ layout: default
                 </ul>
             </div>
         </div>
-
-        <div class="col-md-8">
+        <div class="col-md-5">
             <h1>{{ page.title }}</h1>
             <p>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
             <div  id="markdown-content-container">{{ content }}</div>

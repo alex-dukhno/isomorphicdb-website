@@ -6,8 +6,8 @@ lang: en-US
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: https://isomorphicdb.io # the base hostname & protocol for your site
-git_address: https://github.com/alex-dukhno/isomorphicdb-website
-git_edit_address: https://github.com/alex-dukhno/isomorphicdb-website/blob/gh-pages
+git_address: https://github.com/alex-dukhno/isomorphicdb
+git_edit_address: https://github.com/alex-dukhno/isomorphicdb-website/tree/main
 
 # theme options from https://bootswatch.com/3/
 # comment out this to use default Bootstrap
@@ -22,6 +22,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jemoji
 
 exclude:
   - Gemfile
