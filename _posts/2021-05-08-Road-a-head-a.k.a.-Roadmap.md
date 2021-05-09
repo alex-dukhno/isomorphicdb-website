@@ -17,7 +17,7 @@ Researchers often refer to the fact that there are lots of databases and all of 
 
 Having conversation on self-driven databases with [Alex Petrov][5] helps me recognize that there is not much in self-driven databases research about routine daily DBAs or SREs tasks, like back up of a database. This conversation led me to what I would love to work on. And if you have ideas or experienced something that you think could be improved by implementing adaptetion mechanisms in databases I would like to hear from you. You can DM me on [twitter][6] or [mail][7] me, create an [issue][8] or [discussion][9] in the project repository, or join [discord server][10] and chat there.
 
-Thanks for the reading and sharing your ideas.
+Thanks for the reading and contributing your ideas.
 
 [1]: https://sled.rs
 [2]: http://rust-lang.org/
