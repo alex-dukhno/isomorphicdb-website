@@ -15,7 +15,7 @@ Most of papers that I ancounter with talk about improving or sustain performance
 
 Researchers often refer to the fact that there are lots of databases and all of them have lots of configuration options. To be more precise - hundrends of them. For example, [some of motivations][4] behind [Sled][1] (embedded database written in [Rust][2]) is that [RocksDB][3] (another key-value storage that often used as embedded data store) gives users tons of flexibility and at Facebook, where RocksDB is developed, teams use machine learning to discover optimal configuration for paticular use case.
 
-Having conversation on self-driven databases with [Alex Petrov][5] helps me recognize that there is not much in self-driven databases research about routine daily DBAs or SREs tasks, like back up of a database. This conversation led me to what I would love to work on. And if you have ideas or experienced something that you think could be improved by implementing adaptetion mechanisms in databases I would like to hear from you. You can DM me on [twitter][6] or [mail][7] me, create an [issue][8] or [discussion][9] in the project repository.
+Having conversation on self-driven databases with [Alex Petrov][5] helps me recognize that there is not much in self-driven databases research about routine daily DBAs or SREs tasks, like back up of a database. This conversation led me to what I would love to work on. And if you have ideas or experienced something that you think could be improved by implementing adaptetion mechanisms in databases I would like to hear from you. You can DM me on [twitter][6] or [mail][7] me, create an [issue][8] or [discussion][9] in the project repository, or join [discord server][10] and chat there.
 
 Thanks for the reading and sharing your ideas.
 
@@ -28,3 +28,4 @@ Thanks for the reading and sharing your ideas.
 [7]: mailto:alex.dukhno@icloud.com
 [8]: https://github.com/alex-dukhno/isomorphicdb/issues/new
 [9]: https://github.com/alex-dukhno/isomorphicdb/discussions/new
+[10]: https://discord.gg/PUcTcfU
