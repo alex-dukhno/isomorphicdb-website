@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Road a head a.k.a. Roadmap"
+title:  "IsomorphicDB Road a head"
 author: Alex Dukhno
 ---
 
