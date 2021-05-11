@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "IsomorphicDB. Road ahead"
+title:  "IsomorphicDB. The Road ahead"
 author: Alex Dukhno
 ---
 
